@@ -1,0 +1,39 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Generated outputs
+/Data/output/*
+!/Data/output/.gitkeep
+
+# Temporary files
+*.tmp
+*.log
+~$*.xlsx
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Operating system files
+.DS_Store
+Thumbs.db
